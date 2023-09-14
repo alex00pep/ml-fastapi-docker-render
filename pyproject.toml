@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ml-fastapi-docker-render"
+version = "0.1.0"
+description = "ML model with frontend API writen en FastAPI, deployed to Render"
+authors = ["alex00pep <alexmtnezf@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ml_fastapi_docker_render"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
