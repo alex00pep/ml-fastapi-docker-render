@@ -5,7 +5,7 @@ description = "ML model with frontend API writen en FastAPI, deployed to Render"
 authors = ["alex00pep <alexmtnezf@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "ml_fastapi_docker_render"}]
+packages = [{include = "app", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
