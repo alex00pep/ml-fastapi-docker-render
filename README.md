@@ -23,7 +23,7 @@ git commit -m "initial commit"
 git branch -M main
 ```
 
-### 4. Create Heroku project
+### 4. Create Heroku project and deploy
 
 ```bash
 heroku login
