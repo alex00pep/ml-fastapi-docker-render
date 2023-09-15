@@ -19,6 +19,10 @@ class PredictionOut(BaseModel):
 def home():
     return {"health_check": "OK", "model_version": model_version}
 
+@app.get("/ping")
+def ping():
+    return "pong"
+
 
 @app.post("/predict", response_model=PredictionOut)
 def predict(payload: TextIn):
