@@ -5,6 +5,9 @@ description = "ML model with frontend API written en FastAPI, using a custom-tra
 authors = ["alex00pep <alexmtnezf@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [ 
+{ include = "app", from = "src" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"

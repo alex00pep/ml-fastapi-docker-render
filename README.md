@@ -6,7 +6,7 @@ Deploy ML models with FastAPI, Docker, and Render
 
 [Open Colab](https://colab.research.google.com/drive/1uaALcaatvxOu42IhQA4r0bahfdpw-Z7v?usp=sharing)
 
-### 2. Create Docker container
+### 2. Create Docker container, you can run it locally on CPU
 
 ```bash
 docker build -t app-name .
@@ -23,6 +23,8 @@ git init
 git add .
 git commit -m "initial commit"
 git branch -M main
+git add remote origin <your remote repo>
+git push main
 ```
 
 ### 4. LLM-backed API hosted on Render 
