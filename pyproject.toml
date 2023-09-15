@@ -1,16 +1,15 @@
 [tool.poetry]
-name = "ml-fastapi-docker-render"
+name = "predict-language"
 version = "0.1.0"
-description = "ML model with frontend API writen en FastAPI, deployed to Render"
+description = "ML model with frontend API written en FastAPI, using a custom-trained model, all deployed to Render"
 authors = ["alex00pep <alexmtnezf@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "app", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-scikit-learn = "^1.3.0"
 fastapi = "^0.103.1"
+scikit-learn = "^1.3.0"
 uvicorn = "^0.23.2"
 
 
