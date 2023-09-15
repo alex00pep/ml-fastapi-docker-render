@@ -4,7 +4,11 @@ from app.model.model import predict_pipeline
 from app.model.model import __version__ as model_version
 
 
-app = FastAPI()
+app = FastAPI(
+    title="Text-based Language Prediction",
+    version=model_version,
+    description="Text-based Language Prediction",
+)
 
 
 class TextIn(BaseModel):
@@ -18,6 +22,7 @@ class PredictionOut(BaseModel):
 @app.get("/")
 def home():
     return {"health_check": "OK", "model_version": model_version}
+
 
 @app.get("/ping")
 def ping():
