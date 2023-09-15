@@ -23,7 +23,7 @@ git init
 git add .
 git commit -m "initial commit"
 git branch -M main
-git add remote origin <your remote repo>
+git remote add origin <your remote repo>
 git push main
 ```
 
