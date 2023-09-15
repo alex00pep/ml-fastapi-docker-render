@@ -1,4 +1,6 @@
-# Deploy ML models with FastAPI, Docker, and Render
+# AIBot - Predict Language
+Model to predict language based on input string.
+Deploy ML models with FastAPI, Docker, and Render
 
 ### 1. Develop and save the model with this Colab
 
